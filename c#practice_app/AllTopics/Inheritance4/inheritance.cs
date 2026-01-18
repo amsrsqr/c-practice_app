@@ -59,29 +59,39 @@ class InheritanceProgram {
 
 // Below is the example for inheritance of class with overriding constructor.
 
-//public class ParentClass {
+/*
+    public class ParentClass
+    {
 
-//    // This is constructor with round bracket ()
-//    public ParentClass() {
-//        Console.WriteLine("Parent class called");
-//    }
-//    // This is override same constructor with params
-//    public ParentClass(string title) {
-//        Console.WriteLine(title);
-//    }
-//}
+        // This is constructor with round bracket ()
+        public ParentClass()
+        {
+            Console.WriteLine("Parent class called");
+        }
+        // This is override same constructor with params
+        public ParentClass(string title)
+        {
+            Console.WriteLine(title);
+        }
+    }
 
-//public class ChildClass : ParentClass {
-//    public ChildClass():base("Child class called to parent class method") {  // This base is used to call the override constructor. 
-//        Console.WriteLine("Child class Called");
-//    }
-//}
+    public class ChildClass : ParentClass
+    {
+        public ChildClass() : base("Child class called to parent class method")
+        {  // This base is used to call the override constructor. 
+            Console.WriteLine("Child class Called");
+        }
+    }
 
-//public class Program{
-//    public static void Main() {
-//        ChildClass cc = new ChildClass();
-//    }
-//}
+    public class Program
+    {
+        public static void Main()
+        {
+            ChildClass cc = new ChildClass();
+        }
+    }
+
+*/
 
 // Output 
 // Child class called to parent class method

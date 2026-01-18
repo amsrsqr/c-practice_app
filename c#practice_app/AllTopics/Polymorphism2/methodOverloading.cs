@@ -3,7 +3,7 @@
 // Method overloading 
 // multiple method with the same name but different parameters/ signatures.
 // combination of different params types etc.
-// c# function can be overloaded using number type like int, float && Kind params like ( ref or out).
+// c# function can be overloaded using number type like int,float && Kind params like ( ref or out).
 // We cannot overload method using different return type
 // Means return should be same of this multiple method so that we can do it overload these methods.
 // We cannot overload method using params keyword ex. as below

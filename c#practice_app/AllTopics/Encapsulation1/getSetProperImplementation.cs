@@ -19,7 +19,7 @@ class CollegeStudent
         set
         {
             if (value <= 0)                      // this value means the value which is set in main class.
-            {                                    // accessible here "value" params as c# default keyword.
+            {                                    // accessible here  as "value" params as c# default keyword.
                 throw new Exception("Student Id cannot be less than or equal to zero");
             }
             else
@@ -80,8 +80,14 @@ class GetSetProperImplementation
         student.Name = "John";                          // You can directly set the value to "public string Name" property.
         Console.WriteLine(student.Name);                // You can directly get the value from "public string Name" property.
 
-        //student.PassMark = 40;                        // This line will throw error because "public int PassMark" property is read (get) only.
+        //student.PassMark = 40;                        // This line will throw error because "public int PassMark" property is readonly (get) .
         Console.WriteLine(student.PassMark);            // You can directly get the value from "public int PassMark" property.
+
+        student.City = "New York";                      // You can directly set the value to "public string City" property.
+        Console.WriteLine(student.City);                // You can directly get the value from "public string City" property.
+
+        student.Email = "abc@gmail.com";               // You can directly set the value to "public string Email" property.
+        Console.WriteLine(student.Email);               // You can directly get the value from "public string Email" property.
 
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 public class AbstractionMain
 {
-    public static void Main()
+    public static void RunAbstractMain()
     {
 
     }
