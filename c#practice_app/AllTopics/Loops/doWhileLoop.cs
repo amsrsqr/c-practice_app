@@ -4,7 +4,7 @@ class DoWhile
 {
     public static void RunDoWhile()
     {
-        string userChoice = string.Empty;
+        string userChoice = string.Empty;  // "" or null
         do
   //--
         {

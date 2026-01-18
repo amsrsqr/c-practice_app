@@ -37,7 +37,7 @@ class Customer
     }
 
     // Here Destructor used & automatically detect by garbage collections when when class things are going to clean up
-    // Should be same class names as a Destructor name
+    // Should be same class names as a Destructor name but with ~ initial
     ~Customer() { 
         // clean up code();
     }

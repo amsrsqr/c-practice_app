@@ -1,7 +1,7 @@
 ﻿using System;
-using teamA = projectA.teamA;
-using teamB = projectA.teamB;
-
+using teamA = projectA.teamA;  // avoid ambiguity error we are using alias directive "="
+using teamB = projectA.teamB;  // avoid ambiguity error we are using alias directive "="
+// Namespaces act as logical containers to code management, organization, and clarity, especially in large projects or when using external libraries
 // A namespace can contain
 // 1) Another namespace
 // 2) Class
@@ -12,6 +12,8 @@ using teamB = projectA.teamB;
 
 // Either we can create a seperate project & we can move below both name spaces in individual project
 // and that namespacess we can access in current project.
+// This namespace allows multiple classes to have the same name
+// But they are provided from different namespaces so it will avoid conflicts of names.
 
 class NameSpaces
 {

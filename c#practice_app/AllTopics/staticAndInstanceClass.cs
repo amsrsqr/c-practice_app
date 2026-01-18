@@ -13,7 +13,7 @@ class Cirlce
     int _radius;
 
 
-    public Cirlce(int radius)  // This is a instance consturctor;
+    public Cirlce(int radius)  // This is a instance consturctor; it could be public or private but if there is no access modifier then it will be private by default.
     {
         this._radius = radius;
     }
@@ -50,7 +50,6 @@ class StaticAndInstanceClass {
 
     }
 }
-
 
 // If we make any constructor without access modifier then it will make automatacally private.
 // It mean you can only access that member within the same class not outside of the class.

@@ -1,8 +1,9 @@
 ﻿using System;
 
-class SwitchGoto {
-    public static void Run() {
-       int totalCoffeeAmount = 0;
+public class SwitchGoto {
+    public static void Run() // public static void main() like this.
+    { 
+        int totalCoffeeAmount = 0;
 
     start:
         Console.WriteLine("Please Select Your Coffee: 1-small 2-medium 3-large");

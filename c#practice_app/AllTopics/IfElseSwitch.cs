@@ -1,6 +1,6 @@
 ﻿using System;
 
-class IfElseSwitch
+public class IfElseSwitch
 {
     // This method will be common here to run all the program files from you AllTopics folder
     // import that class and hit the inside method
@@ -9,8 +9,7 @@ class IfElseSwitch
      public static void Main()
     {
 
-        //RunIfElse();
-        MethodOverriding.RunMethodOverriding();
+        RunIfElse();
     }
 
     static void RunIfElse()

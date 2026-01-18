@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
+using System.Security.Cryptography;
 
 
-class ForAndForEachLoop {
+class ForAndForEachLoop
+{
 
     public static void RunForAndForEach()
     {
@@ -38,7 +41,7 @@ class ForAndForEachLoop {
         // Will print output upto only 10 after this loop will break and terminate;
         for (int k = 0; k <= 20; k++)
         {
-            Console.Write(k+" ");
+            Console.Write(k + " ");
             if (k == 10)
             {
                 break;
@@ -47,24 +50,20 @@ class ForAndForEachLoop {
 
 
         //This will print only even numbers
-        for (int m = 0; m <= 20; m=m+2)
+        for (int m = 0; m <= 20; m = m + 2)
         {
-            Console.Write(m+" ");
+            Console.Write(m + " ");
         }
 
 
         // This will also print even numbers
-        // IF condition will always become true for odd numbers 
-        // if it true then continue will not execute console
-        // It will skip that moment and go to for loop to increas own values.
+        // “The continue statement skips to print console when the number is odd, so only even numbers are printed.”
         for (int m = 0; m <= 20; m++)
         {
-            if (m % 2 == 1) 
-                continue;
-            
-            Console.Write(m+" ");
+            if (m % 2 == 1) continue;
+            Console.Write(m + " ");
         }
 
     }
-        
+
 }

@@ -1,8 +1,9 @@
 ﻿using System;
 
-class whileLoop { 
+public class whileLoop { 
   
-   public static void RunWhile() {
+   public static void RunWhile()  // public static void Main() {
+    { 
 
         Console.WriteLine("Please enter your number");
         int yourNumber = int.Parse(Console.ReadLine());
