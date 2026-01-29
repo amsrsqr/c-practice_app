@@ -8,8 +8,7 @@ public class IfElseSwitch
     // Run the App;
      public static void Main()
     {
-
-        RunIfElse();
+       WhyEnumIsRequired.RunWhyEnumRequired();
     }
 
     static void RunIfElse()
