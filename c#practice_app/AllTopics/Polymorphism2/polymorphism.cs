@@ -32,7 +32,7 @@ class ChildMemberTwo : ParentMember
 }
 class ChildMemberThree : ParentMember
 {
-    // If we not write any method in child class then forEach loop will print default full name from base class.
+    // If we didn't write any method in child class then forEach loop will print default full name from base class.
     // Because we are assigining parent class to this child class.
     // default behaviour will like this.
     public override void getFullName()
