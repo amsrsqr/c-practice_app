@@ -17,9 +17,9 @@ class methodsParametes
         simpleMethods(i);
         Console.WriteLine(i); // This will print 0;
     }
-    public static void simpleMethods(int j)
+    public static void simpleMethods(int i)
     {
-        j = 100;
+        i = 100;
     }
 
 
@@ -32,9 +32,9 @@ class methodsParametes
         simplePassMethods(ref i);
         Console.WriteLine(i); // This will print 100
     }
-    public static void simplePassMethods(ref int j)
+    public static void simplePassMethods(ref int i)
     {
-        j = 100;
+        i = 100;
     }
 
 

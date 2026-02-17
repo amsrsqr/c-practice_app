@@ -39,7 +39,7 @@ public class publicPrivateProtected
 {
     public static void RunPublicPrivateProtcted()
     {
-        CustomerAccess c1 = new CustomerAccess();
+        //CustomerAccess c1 = new CustomerAccess();
         //Console.WriteLine(c1.id); ----> This id could not be accessible due to private field.
 
 
