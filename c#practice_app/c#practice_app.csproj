@@ -9,8 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AllTopics\Collections\Queue\" />
-    <Folder Include="AllTopics\Collections\Stack\" />
     <Folder Include="AllTopics\Multithreadings\" />
   </ItemGroup>
 
