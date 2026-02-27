@@ -97,6 +97,10 @@ namespace Amol
             this._amountToTransfer = amountToTransfer;
         }
 
+        public AccountManager(AccountClass accountB, AccountClass accountA, int v)
+        {
+        }
+
         public void Transfer()
         {
             Console.WriteLine(Thread.CurrentThread.Name+ " trying to acquire lock on "+ _fromAccount.ID.ToString());
